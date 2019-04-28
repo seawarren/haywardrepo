@@ -54,14 +54,47 @@
 </head>
 <body>
   
-  	
-  	<header class="container">
-		<div class="my-5 jumbotron">
-			<h1>What Remains of Bears Ears</h1>
-			<p class="lead">Utah’s politically contentious southeast corner is a living landscape of culture and civilization</p>
-		</div>
-    </header>
-  
+			<header class="container">
+<div id="topper-container" class="topper-container">
+
+  <div id="topper-video">
+    <video id="video-scroll-element" class="video-scroll-element video-scroll-element" tabindex="0" autobuffer="" preload="" playsinline="" autoplay="" mute="">
+    <source src="https://media.journalism.berkeley.edu/upload/2019/04/15564874125a3911c.mp4" type="video/mp4"></video>
+  </div>
+
+  <div class="step-container">
+
+    <div class="topper-step" style="margin-top:-50vh">
+      <div class="pg-display">
+          <h1 class="pg-h1 ">
+              What remains of Bears Ears
+          </h1>
+          <h2 class="pg-intro">
+              Utah’s politically contentious southeast corner is a living landscape of culture and civilization
+          </h2>
+      </div>
+    </div>
+
+    <div class="topper-step">
+      <p>For the last 13,000 years, humans have inhabited this part of the southwest.</p>
+    </div>
+
+    <div class="topper-step">
+      <p>They carved arrowheads from stone and hunted giant sloths. They learned to farm corn and created communities on the mesa tops.</p>
+    </div>
+    <div class="topper-step">
+      <p>They scratched and painted images onto rocks and reused and remixed what was left by earlier generations.</p>
+    </div>
+
+    <div class="topper-step">
+      <p>For 11 months, the rich legacy of this region was federally protected.  It’s not clear who will be its steward now.</p>
+    </div>
+
+  </div>
+</div>
+
+</header>
+
   
 	<div class="container">
 		<div class="row justify-content-center">
