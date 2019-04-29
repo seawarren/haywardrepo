@@ -2,61 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-  	<title> Hayward Fault </title>
-	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-	<script>
-	function scrollVideo() {
-	  var video = $('#video').get(0),
-	    videoLength = video.duration,
-	    scrollPosition = $(document).scrollTop();
-	  
-	  video.currentTime = (scrollPosition / ($(document).height() - $(window).height())) * videoLength;
-	}
-	$(window).scroll(function(e) {
-	  scrollVideo();
-	});
-	</script>
-
-	## https://gist.github.com/giselilla/39eeb08958220de1dde9ee80a5cdfa74
-	<style>
-		*{
-			padding: 0;margin: 0;
-		}
-		html {
-		  height:100%;
-		}
-		body {
-		  height: 4000px;
-		}
-		video {
-		  position: fixed;
-		  left: 50%;
-		  top: 0;
-		  min-width: 100%;
-		  min-height: 100%;
-		  width: auto;
-		  height: auto;
-		  z-index: -100;
-		  background-size: cover;
-		  -moz-transform: translateX(-50%);
-		  transform: translateX(-50%);
-		}
-		h1 {
-		  position: fixed;
-		  top: 50%;
-		  left: 50%;
-		  width: 100%;
-		  -moz-transform: translate(-50%,-50%);
-		  transform: translate(-50%,-50%);
-		  z-index: 99;
-		  font-family: HelveticaNeue, Helvetica, sans-serif;
-		  font-size:8vmin;
-		  text-align:center;
-		  color: white;
-		}
-	</style>
-	
-##does this "transition" work?
+  	<title>Example</title>
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   	<style>
 	  
 	  html,body{
@@ -64,7 +11,7 @@
 	  }
 	  
 	  body{
-		font-family: HelveticaNeue, Helvetica, sans-serif ;
+		font-family: Garamond, Georgia, serif;
 		line-height: 1.9em;
 	  }
 	  
@@ -106,13 +53,11 @@
   	</style>
 </head>
 <body>
-	
-<h1> When the Hayward Fault moves the East Bay, the poorest who cannot afford insurance will be left with nothing. &#9658;</h1>
-<video id="video" src="https://media.journalism.berkeley.edu/upload/2019/04/15564874125a3911c.mp4"></video>
+  
   	
   	<header class="container">
 		<div class="my-5 jumbotron">
-			<h1> Hayward Fault </h1>
+			<h1>What Remains of Bears Ears</h1>
 			<p class="lead">Utah’s politically contentious southeast corner is a living landscape of culture and civilization</p>
 		</div>
     </header>
@@ -151,10 +96,10 @@
   
 	<div class="map-section">
 	  <div id="map-1" data-anchor-target="#p-3" data-top-top="opacity:0;" data-top-bottom="opacity:1;"></div>
-	  <div id="map-2" data-anchor-target="#p-3" data-top-bottom="opacity:0;" data--400-top-bottom="opacity:1;"></div>
+	  <div id="map-2" data-anchor-target="#p-3" data-top-bottom="opacity:0;" data--1000-top-bottom="opacity:1;"></div>
 	  <div id="map-3" data-anchor-target="#p-4" data-center-top="opacity:0;" data-center-center="opacity:1;"></div>
 	  <div id="map-4" data-anchor-target="#p-5" data-bottom-top="opacity:0;" data-bottom-bottom="opacity:1;"></div>
-	  <div id="map-5" data-anchor-target="p-6" data-center-top="opacity:0;" data-center-center=opacity:1;></div>
+	  <div id="map-5" data-anchor-target="#p-6" data-center-top="opacity:0;" data-center-center="opacity:1;"></div>
 	  <div id="map-6"></div>
     </div> 
   
@@ -162,9 +107,5 @@
   <script>
   	var s = skrollr.init();
   </script>
-	
-	
-	
-	
 </body>
 </html>
