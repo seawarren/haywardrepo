@@ -46,10 +46,7 @@
 	  #map-1{ background-image:url(https://media.journalism.berkeley.edu/upload/2019/04/1556496654b2d2aaa.jpg);}
 	  #map-2{ background-image:url(https://media.journalism.berkeley.edu/upload/2019/04/15564966939d5cd11.jpg);}
 	  #map-3{ background-image:url(https://media.journalism.berkeley.edu/upload/2019/04/15564978619fa51cd.jpg.jpg);}
-	  #map-4{ background-image:url();}
-	  #map-5{ background-image:url();}
-	  #map-6{ background-image:url();}
-  
+
   	</style>
 </head>
 <body>
