@@ -92,17 +92,31 @@
   	<!-- data-[offset]-(viewport-anchor)-[element-anchor] -->
   
 	<div class="map-section">
-	  <div id="map-1" data-anchor-target="#p-3" data-top-top="opacity:0;" data-top-bottom="opacity:1;"></div>
+	  <div id="map-1" data-emit-events data-anchor-target="#p-3" data-top-top="opacity:0;" data-top-bottom="opacity:1;"></div>
 	  <div id="map-2" data-anchor-target="#p-3" data-top-bottom="opacity:0;" data--1000-top-bottom="opacity:1;"></div>
 	  <div id="map-3" data-anchor-target="#p-4" data-center-top="opacity:0;" data-center-center="opacity:1;"></div>
 	  <div id="map-4" data-anchor-target="#p-5" data-bottom-top="opacity:0;" data-bottom-bottom="opacity:1;"></div>
 	  <div id="map-5" data-anchor-target="#p-6" data-center-top="opacity:0;" data-center-center="opacity:1;"></div>
 	  <div id="map-6"></div>
     </div> 
-  
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
   <script>
-  	var s = skrollr.init();
+  	var s = skrollr.init({
+					keyframe: function(element, name, direction) {
+				
+						
+					}
+				});
+		
+		$(window).on("scroll", function(){
+		
+			console.log($(window).scrollTop());
+		
+		})
+		
+		
+		
   </script>
 </body>
 </html>
