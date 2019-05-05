@@ -2,25 +2,40 @@
 <html>
 <head>
 	<meta charset="utf-8">
-  	<title>Example</title>
+  	<title>The inequality of Oakland's earthquake-safe housing</title>
   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  	<style>
-	  
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
+<style>
+	  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Stint+Ultra+Expanded" rel="stylesheet">
 	  html,body{
 		overflow-x: hidden;
 	  }
 	  
 	  body{
-		font-family: Garamond, Georgia, serif;
+		font-family: 'Merriweather', serif;
+          font-size: 14px;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          letter-spacing: normal;
+          line-height:1;
+          margin: 0; 
 		line-height: 1.9em;
 	  } 
 	  
-	  .text-piece{
-		padding:20px;
+	  .whitebox-text{
+		padding:15px;
 		background-color: #ffffff;
 		width: 50vw;
 		margin: 100vh auto;
 	  }
+
+    .intro-text{
+          font-family: 'Merriweather', serif;
+          font-size: 20px;
+        padding:80px;
+		line-height: 1.9em;
+    }
 	  
 	  .map-section{
 		position: fixed; /* it's relative so that maps line up to this box */
@@ -42,16 +57,29 @@
 		background-size: cover;
 		background-position: center;
 	  }
+        h1{
+        color: #ffffff;
+        font-family: 'Merriweather Sans', sans-serif;  
+    }
+        .bigfont{
+        font-size: 80px;
+        margin-bottom: 10px;
+    }
+        h2{
+        color: #ffffff;
+        font-family: 'Merriweather', serif;
+        letter-spacing: 1.5px;
         
+    }
         #main-header{
             position: relative;
             min-height: 100vh;
-            color:white;
+            color:white; 
         }
         
         #main-header p{
             margin: 400px 0;
-        }
+        }  
         
         #main-header video{
             position: fixed;
@@ -81,19 +109,18 @@
   	
   	<header id="main-header" class="container-fluid">
 		<div class="row justify-content-left">
-            <div class="col-4 offset-1">
+            <div class="col-4 offset-1">            
+                <h1 class="pt-5">
+                    <span class="bigfont">Rich vs. Poor:</span></h1>
+                <h2 class="pt-3">Visualizing the inequality of earthquake-safe housing in Oakland </h2>
                 
-                <h1 class="pt-5">Hayward Fault</h1>
-
-                <p class="lead">Utah’s politically contentious southeast corner is a living landscape of culture and civilization</p>
+                <p class="intro-text">The past six major earthquakes along the Hayward Fault have occurred at at an average interval of about 150 years. </p>
 
                 <p class="intro-text">Lorem ipsum dolor sit amet, Aliquam non magna purus. Nam vestibulum, quam eget pharetra cursus, lectus ante semper nunc, ac sagittis sem purus non magna.</p>
 
                 <p class="intro-text">Lorem ipsum dolor sit amet, Aliquam non magna purus. Nam vestibulum, quam eget pharetra cursus, lectus ante semper nunc, ac sagittis sem purus non magna.</p>
 
-                <p class="intro-text">Lorem ipsum dolor sit amet, Aliquam non magna purus. Nam vestibulum, quam eget pharetra cursus, lectus ante semper nunc, ac sagittis sem purus non magna.</p>
-
-                <p class="intro-text">Lorem ipsum dolor sit amet, Aliquam non magna purus. Nam vestibulum, quam eget pharetra cursus, lectus ante semper nunc, ac sagittis sem purus non magna.</p>
+               
             </div>
         </div>
         
@@ -114,19 +141,19 @@
 	</div>
  
   
-	<div class="text-piece">
+	<div class="whitebox-text">
 	  <p id="p-4">The region, northwest of the much-visited Four Corners, includes a stunning variety of topography —  flat-topped mesas and expansive valleys, sloping igneous mountains and towering sandstone cliffs.</p>
   	</div>
 
-	<div class="text-piece">
+	<div class="whitebox-text">
 	  <p id="p-5">The Obama monument protected 1.35 million acres of federally-owned land and covered much of San Juan County, which has about 15,000 residents.</p>
   	</div>
 
-	<div class="text-piece">
+	<div class="whitebox-text">
 	  <p id="p-6">The designation prevented energy development and mining and allowed for restricting where vehicles could go. Republicans accused Obama of presidential overreach and said the new monument was a late-term, large “federal land grab.”</p>
   	</div>
 
-	<div class="text-piece">
+	<div class="whitebox-text">
 	  <p id="p-7">Trump, in reducing the size of the monument, said “important objects of scientific or historic interest can instead be protected by a smaller and more appropriate reservation” of two disconnected parts, Shash Jaa and Indian Creek.</p>
   	</div>
         
