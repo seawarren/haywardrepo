@@ -24,8 +24,8 @@
 		line-height: 1.9em;
 	  } 
 	  
-	  .whitebox-text{
-		padding:10px;
+	 .whitebox-text{
+		padding:15px;
 		background-color: #ffffff;
 		width: 50vw;
 		margin: 100vh auto;
@@ -62,6 +62,7 @@
 		top: 0;
 		left: 0;
 		opacity: 0;
+          z-index: -1;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -170,9 +171,10 @@
 	<div class="map-section">
 	  <div id="map-1" data-emit-events data-anchor-target="#p-3" data-top-top="opacity:0;" data-top-bottom="opacity:1;"></div>
 	  <div id="map-2" data-anchor-target="#p-3" data-top-bottom="opacity:0;" data--1000-top-bottom="opacity:1;"></div>
-	  <div id="map-3" data-anchor-target="#p-4" data-center-top="opacity:0;" data-center-center="opacity:.5;"></div>
-	  <div id="map-4" data-anchor-target="#p-5" data-bottom-top="opacity:.5;" data-bottom-bottom="opacity:1;"></div>
-	  <div id="map-5" data-anchor-target="#p-6" data-center-top="opacity:0;" data-center-center="opacity:1;"></div>
+	  <div id="map-3" data-anchor-target="#p-4" data-center-top="opacity:0;" data-center-center="opacity: 1;"></div>
+	  <div id="map-4" data-anchor-target="#p-5" data-bottom-top="opacity:0;" data-bottom-bottom="opacity:.25;"></div>
+	  <div id="map-5" data-anchor-target="#p-6" data-center-top="opacity:0;" data-center-center="opacity:.25;"></div>
+	  <div id="map-6"></div>
     </div> 
     
   <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
