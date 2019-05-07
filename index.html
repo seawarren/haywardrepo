@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-  	<title>The inequality of Oakland's earthquake-safe housing</title>
+  	<title>In Oakland, structural inequality</title>
   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
 <style>
@@ -12,8 +12,9 @@
 	  }
 	  
 	  body{
-		font-family: 'Merriweather', serif;
-          font-size: 14px;
+		font-family: 'Merriweather sans', sans-serif;
+          font-size: 20px;
+          padding: 10px;
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
@@ -24,19 +25,27 @@
 	  } 
 	  
 	  .whitebox-text{
-		padding:15px;
+		padding:10px;
 		background-color: #ffffff;
 		width: 50vw;
 		margin: 100vh auto;
 	  }
 
     .intro-text{
-          font-family: 'Merriweather', serif;
+          font-family: 'Merriweather sans', sans-serif;
           font-size: 20px;
-        padding:80px;
-		line-height: 1.9em;
+            background-color: #ffffff;
+            opacity: .65;
+            color: #000000;
+        padding: 10px ;
+		line-height: 1.4em;
     }
 	  
+    .main-text{
+    background color:#ffffff
+}
+    
+    }
 	  .map-section{
 		position: fixed; /* it's relative so that maps line up to this box */
 		height: 100vh;
@@ -59,7 +68,7 @@
 	  }
         h1{
         color: #ffffff;
-        font-family: 'Merriweather Sans', sans-serif;  
+        font-family: 'Merriweather', serif;  
     }
         .bigfont{
         font-size: 80px;
@@ -67,8 +76,8 @@
     }
         h2{
         color: #ffffff;
-        font-family: 'Merriweather', serif;
-        letter-spacing: 1.5px;
+        font-family: 'Merriweather sans', sans-serif;
+        letter-spacing: 1.2px;
         
     }
         #main-header{
@@ -78,7 +87,7 @@
         }
         
         #main-header p{
-            margin: 400px 0;
+            margin: 500px 0;
         }  
         
         #main-header video{
@@ -101,6 +110,7 @@
 	  #map-1{ background-image:url(https://media.journalism.berkeley.edu/upload/2019/04/1556496654b2d2aaa.jpg);}
 	  #map-2{ background-image:url(https://media.journalism.berkeley.edu/upload/2019/04/15564966939d5cd11.jpg);}
 	  #map-3{ background-image:url(https://media.journalism.berkeley.edu/upload/2019/04/15564978619fa51cd.jpg);}
+     #map-4{ background-image:url(https://media.journalism.berkeley.edu/upload/2019/04/15564978619fa51cd.jpg);}
 
   	</style>
 </head>
@@ -111,14 +121,16 @@
 		<div class="row justify-content-left">
             <div class="col-4 offset-1">            
                 <h1 class="pt-5">
-                    <span class="bigfont">Rich vs. Poor:</span></h1>
-                <h2 class="pt-3">Visualizing the inequality of earthquake-safe housing in Oakland </h2>
+                    <span class="bigfont">Strucutural Inequality</span></h1>
+                <h2 class="pt-3">Why a rupture of the Hayward Fault will be catastrophic for Oakland's most vulnerable</h2>
                 
-                <p class="intro-text">The past six major earthquakes along the Hayward Fault have occurred at at an average interval of about 150 years. </p>
+                <p class="intro-text">The East Bay's Hayward Fault is widely considered the most deadly in the nation.</p>
 
-                <p class="intro-text">Lorem ipsum dolor sit amet, Aliquam non magna purus. Nam vestibulum, quam eget pharetra cursus, lectus ante semper nunc, ac sagittis sem purus non magna.</p>
+                <p class="intro-text">It courses through the homes and work places of one of the most densely populated places in the nation.</p>
 
-                <p class="intro-text">Lorem ipsum dolor sit amet, Aliquam non magna purus. Nam vestibulum, quam eget pharetra cursus, lectus ante semper nunc, ac sagittis sem purus non magna.</p>
+                <p class="intro-text">The fault hasn't erupted in more than 150 years, and like most dangeorus fault lines in California, is long overdue for a rupture.</p>
+                
+                <p class="intro-text">For Oakland's low-income and minority populations, such a rupture would spell devastation.</p>
 
                
             </div>
@@ -152,21 +164,17 @@
 	<div class="whitebox-text">
 	  <p id="p-6">The designation prevented energy development and mining and allowed for restricting where vehicles could go. Republicans accused Obama of presidential overreach and said the new monument was a late-term, large “federal land grab.”</p>
   	</div>
-
-	<div class="whitebox-text">
-	  <p id="p-7">Trump, in reducing the size of the monument, said “important objects of scientific or historic interest can instead be protected by a smaller and more appropriate reservation” of two disconnected parts, Shash Jaa and Indian Creek.</p>
-  	</div>
         
   	<!-- data-[offset]-(viewport-anchor)-[element-anchor] -->
   
 	<div class="map-section">
 	  <div id="map-1" data-emit-events data-anchor-target="#p-3" data-top-top="opacity:0;" data-top-bottom="opacity:1;"></div>
 	  <div id="map-2" data-anchor-target="#p-3" data-top-bottom="opacity:0;" data--1000-top-bottom="opacity:1;"></div>
-	  <div id="map-3" data-anchor-target="#p-4" data-center-top="opacity:0;" data-center-center="opacity:1;"></div>
-	  <div id="map-4" data-anchor-target="#p-5" data-bottom-top="opacity:0;" data-bottom-bottom="opacity:1;"></div>
+	  <div id="map-3" data-anchor-target="#p-4" data-center-top="opacity:0;" data-center-center="opacity:.5;"></div>
+	  <div id="map-4" data-anchor-target="#p-5" data-bottom-top="opacity:.5;" data-bottom-bottom="opacity:1;"></div>
 	  <div id="map-5" data-anchor-target="#p-6" data-center-top="opacity:0;" data-center-center="opacity:1;"></div>
-	  <div id="map-6"></div>
     </div> 
+    
   <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
   <script>
